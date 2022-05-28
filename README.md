@@ -5,6 +5,8 @@ Writer: Lejia Zhang 2021/06/17
 0. The Python version of this project is Python 3.7. Related modules should also installed using pip install or python3 -m install before running the program. 
 
 1. Streamlit 
+
+
 Streamlit is a novel framework which could easily used in Python as a library. This project was written with Streamlit. Since currently there are few people using Streamlit, I advised you could search more useful resources on Google or YouTube.  
 
 These resource materials are useful for development: 
