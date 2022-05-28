@@ -1,0 +1,27 @@
+python 3
+
+1.Firstly, you need to install python3 in your computer. Then install these packages (Packages.txt file) as well.
+2.Open a terminal, go to the folder where the code is located, run ' python Main.py '
+******************************************************************************************************************
+
+There are five python files there: Main.py, Frame.py, ROI.py, gabor.py and Features.py.
+
+Main.py is used to identfy forder road.
+Several paths could be changed according to your own forder.
+
+Frame.py is used toget frames of one video. (Picture folder)
+
+ROI.py is used to get the region of mouth according to Dlib 68 point. (Mouth folder)
+
+Gabor.py is used to get gabor features. (Gabor folder)
+
+Features.py is used to get 7 features of lip. (Feature, Sheet folders)
+********************************************************************************************************************
+Note:
+
+#If the gabor features (see picture in Gabor folder) is not accuracy, you can change Gabor parameters in Gabor.py:
+    wavelenth = 15
+    orentation = 90     #the horizontal filter
+    kernel_size = 12    #12
+    sig =5              #bandwidth
+    gm = 0.5
